@@ -1,0 +1,29 @@
+{
+  "name": "everywebframeworkpossibleatonce",
+  "version": "1.0.0",
+  "description": "A single-page website that uses every web framework possible........ at once..........",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config config/prod/webpack.config.js",
+    "start": "webpack serve --config config/dev/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatretrodev/everywebframeworkpossibleatonce.git"
+  },
+  "author": "thatretrodev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thatretrodev/everywebframeworkpossibleatonce/issues"
+  },
+  "homepage": "https://github.com/thatretrodev/everywebframeworkpossibleatonce#readme",
+  "dependencies": {
+    "webpack": "^5.47.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
